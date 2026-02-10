@@ -1,0 +1,35 @@
+<!-- Icons in Data/Icons are from flaticon.com -->
+
+<OverlayData>
+  <MarkerCategory name="apo" DisplayName="Apo's Boss Markers">
+
+    <MarkerCategory name="kelanm" DisplayName="Kela NM">
+      <MarkerCategory name="stack" DisplayName="Stacking Spot" iconFile="apo_markers/Data/icons/stacking-spot.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="crab1" DisplayName="Crab Spawn 1" iconFile="apo_markers/Data/icons/number-1.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="crab2" DisplayName="Crab Spawn 2" iconFile="apo_markers/Data/icons/number-2.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="crab3" DisplayName="Crab Spawn 3" iconFile="apo_markers/Data/icons/number-3.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="crab4" DisplayName="Crab Spawn 4" iconFile="apo_markers/Data/icons/number-4.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="crab5" DisplayName="Crab Spawn 5" iconFile="apo_markers/Data/icons/number-5.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="crab6" DisplayName="Crab Spawn 6" iconFile="apo_markers/Data/icons/number-6.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="crab7" DisplayName="Crab Spawn 7" iconFile="apo_markers/Data/icons/number-7.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="crab8" DisplayName="Crab Spawn 8" iconFile="apo_markers/Data/icons/number-8.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="crab9" DisplayName="Crab Spawn 9" iconFile="apo_markers/Data/icons/number-9.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="crab10" DisplayName="Crab Spawn 10" iconFile="apo_markers/Data/icons/number-10.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+    </MarkerCategory>
+  </MarkerCategory>
+
+  <POIs>
+    <POI MapID="1609" xpos="-535" ypos="43.5" zpos="324" type="apo.kelanm.stack" GUID="cZcoG8mrM0GKNFtOVP6myB=="/>
+    <POI MapID="1609" xpos="-547" ypos="43.5" zpos="292" type="apo.kelanm.crab1" GUID="cZcoG8mrM0GKNFtOVP6myA=="/>
+    <POI MapID="1609" xpos="-566" ypos="43.5" zpos="314" type="apo.kelanm.crab2" GUID="cZcoG8mrM0GKNFtOVP7myA=="/>
+    <POI MapID="1609" xpos="-531" ypos="43.5" zpos="290" type="apo.kelanm.crab3" GUID="cZcoG8mrM0GKNFtOVP9myA=="/>
+    <POI MapID="1609" xpos="-549" ypos="43.5" zpos="315" type="apo.kelanm.crab4" GUID="cZcoG8mrM0GKNFtOVP5myA=="/>
+    <POI MapID="1609" xpos="-564" ypos="43.5" zpos="334" type="apo.kelanm.crab5" GUID="cZcoG8mrM0GKNFtOVP8myA=="/>
+    <POI MapID="1609" xpos="-503" ypos="43.5" zpos="305" type="apo.kelanm.crab6" GUID="cZcoG8mrM0GKNFtOVP1myA=="/>
+    <POI MapID="1609" xpos="-524" ypos="43.5" zpos="313" type="apo.kelanm.crab7" GUID="cZcoG8mrM0GKNFtOVP3myA=="/>
+    <POI MapID="1609" xpos="-538" ypos="43.5" zpos="343" type="apo.kelanm.crab8" GUID="cZcoG8mrM0GKNFtOVP4myA=="/>
+    <POI MapID="1609" xpos="-554" ypos="43.5" zpos="358" type="apo.kelanm.crab9" GUID="cZcoG8mrM0GKNFtOVP2myA=="/>
+    <POI MapID="1609" xpos="-512" ypos="43.5" zpos="331" type="apo.kelanm.crab10" GUID="cZcoG8mrM0GKNFtOVP9myA=="/>
+  </POIs>
+
+</OverlayData>
