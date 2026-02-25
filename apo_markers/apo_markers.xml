@@ -4,7 +4,7 @@
 
   <MarkerCategory name="apo" DisplayName="Apo's Boss Markers">
 
-    <MarkerCategory name="kela" DisplayName="Kela">
+    <MarkerCategory name="kela" DisplayName="Kela Test 2">
 
       <MarkerCategory name="executors" DisplayName="Executor or Waves">
         <MarkerCategory name="spawn1" DisplayName="Spawn 1" iconFile="Assets/icons/number-1.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
@@ -24,6 +24,15 @@
         <MarkerCategory name="wavetrigger2" DisplayName="Wave Trigger Area 2" alpha="0.45" animspeed="0" texture="Assets/line.png" trailScale="0.4" fadeNear="4000" fadeFar="4100" tip-description="Crossing this line with Kelas hitbox will cause waves in the center and north-west to spawn. No south-east waves." />
       </MarkerCategory>
 
+      <MarkerCategory name="waveareas" DisplayName="Wave Areas" defaultToggle="0">
+        <MarkerCategory name="midwave" DisplayName="Wave Area Middle" tip-description="Hitbox of the middle wave.">
+          <MarkerCategory name="waveareamidnw" DisplayName="NW Border" alpha="0.45" animspeed="0" texture="Assets/line-fade-right.png" trailScale="1" fadeNear="4000" fadeFar="4100" color="#DC2F02" />
+          <MarkerCategory name="waveareamidse" DisplayName="SE Border" alpha="0.45" animspeed="0" texture="Assets/line-fade-left.png" trailScale="1" fadeNear="4000" fadeFar="4100" color="#DC2F02" tip-description="Crossing this line with Kelas hitbox will cause waves in the center and south-east to spawn. No north-west waves." />
+        </MarkerCategory>
+        <MarkerCategory name="waveareanw" DisplayName="Wave Area NW" alpha="0.45" animspeed="0" texture="Assets/line-fade-right.png" trailScale="1" fadeNear="4000" fadeFar="4100" color="#DC2F02" tip-description="Hitbox of the north-west wave." />
+        <MarkerCategory name="wavearease" DisplayName="Wave Area SE" alpha="0.45" animspeed="0" texture="Assets/line-fade-left.png" trailScale="1" fadeNear="4000" fadeFar="4100" color="#DC2F02" tip-description="Hitbox of the south-east wave." />
+      </MarkerCategory>
+
       <MarkerCategory name="middle" DisplayName="Crabs Center" iconFile="Assets/icons/stacking-spot.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100" tip-description="Displays a marker from which all Executor of Wave spawns can be reached with 1500 range."/>
 
     </MarkerCategory>
@@ -41,8 +50,13 @@
     <POI MapID="1609" xpos="-554" ypos="43" zpos="358" type="apo.kela.executors.spawn9" GUID="rP8vTn5Yk2LmH9XqZc6WrA=="/>
     <POI MapID="1609" xpos="-512" ypos="43" zpos="331" type="apo.kela.executors.spawn10" GUID="tL3xKp9Vq7YmR2ZnHf4WsQ=="/>
 
-    <trail type="apo.kela.triggerareas.wavetrigger1" trailData="Assets/trails/topmid.trl" mapid="1609"/>
-    <trail type="apo.kela.triggerareas.wavetrigger2" trailData="Assets/trails/botmid.trl" mapid="1609"/>
+    <trail type="apo.kela.triggerareas.wavetrigger1" trailData="Assets/trails/kela-wave-trigger-botmid.trl" mapid="1609"/>
+    <trail type="apo.kela.triggerareas.wavetrigger2" trailData="Assets/trails/kela-wave-trigger-topmid.trl" mapid="1609"/>
+
+    <trail type="apo.kela.waveareas.midwave.waveareamidnw" trailData="Assets/trails/kela-wave-range-mid-bot.trl" mapid="1609"/>
+    <trail type="apo.kela.waveareas.midwave.waveareamidse" trailData="Assets/trails/kela-wave-range-mid-top.trl" mapid="1609"/>
+    <trail type="apo.kela.waveareas.waveareanw" trailData="Assets/trails/kela-wave-range-top.trl" mapid="1609"/>
+    <trail type="apo.kela.waveareas.wavearease" trailData="Assets/trails/kela-wave-range-bot.trl" mapid="1609"/>
 
     <POI MapID="1609" xpos="-535" ypos="43" zpos="324" type="apo.kela.middle" GUID="Qk3sL9vTzE2aHf7WpR1XcA=="/>
   </POIs>
