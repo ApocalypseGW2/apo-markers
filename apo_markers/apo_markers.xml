@@ -4,7 +4,7 @@
 
   <MarkerCategory name="apo" DisplayName="Apo's Boss Markers">
 
-    <MarkerCategory name="kela" DisplayName="Kela Test 2">
+    <MarkerCategory name="kela" DisplayName="Kela">
 
       <MarkerCategory name="executors" DisplayName="Executor or Waves">
         <MarkerCategory name="spawn1" DisplayName="Spawn 1" iconFile="Assets/icons/number-1.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
