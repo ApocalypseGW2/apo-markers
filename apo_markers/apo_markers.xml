@@ -3,41 +3,48 @@
 <OverlayData>
 
   <MarkerCategory name="apo" DisplayName="Apo's Boss Markers">
-    <MarkerCategory name="kelanm" DisplayName="Kela NM">
-      <MarkerCategory name="wavetrigger1" DisplayName="Wave Trigger Area 1" alpha="0.45" animspeed="0" texture="Assets/line.png" trailScale="0.4" fadeNear="4000" fadeFar="4100" />
-      <MarkerCategory name="wavetrigger2" DisplayName="Wave Trigger Area 2" alpha="0.45" animspeed="0" texture="Assets/line.png" trailScale="0.4" fadeNear="4000" fadeFar="4100" />
 
-      <MarkerCategory name="stack" DisplayName="Stacking Spot" iconFile="Assets/icons/stacking-spot.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+    <MarkerCategory name="kela" DisplayName="Kela">
 
-      <MarkerCategory name="crab1" DisplayName="Crab Spawn 1" iconFile="Assets/icons/number-1.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="crab2" DisplayName="Crab Spawn 2" iconFile="Assets/icons/number-2.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="crab3" DisplayName="Crab Spawn 3" iconFile="Assets/icons/number-3.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="crab4" DisplayName="Crab Spawn 4" iconFile="Assets/icons/number-4.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="crab5" DisplayName="Crab Spawn 5" iconFile="Assets/icons/number-5.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="crab6" DisplayName="Crab Spawn 6" iconFile="Assets/icons/number-6.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="crab7" DisplayName="Crab Spawn 7" iconFile="Assets/icons/number-7.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="crab8" DisplayName="Crab Spawn 8" iconFile="Assets/icons/number-8.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="crab9" DisplayName="Crab Spawn 9" iconFile="Assets/icons/number-9.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
-      <MarkerCategory name="crab10" DisplayName="Crab Spawn 10" iconFile="Assets/icons/number-10.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+      <MarkerCategory name="executors" DisplayName="Executor or Waves">
+        <MarkerCategory name="spawn1" DisplayName="Spawn 1" iconFile="Assets/icons/number-1.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+        <MarkerCategory name="spawn2" DisplayName="Spawn 2" iconFile="Assets/icons/number-2.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+        <MarkerCategory name="spawn3" DisplayName="Spawn 3" iconFile="Assets/icons/number-3.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+        <MarkerCategory name="spawn4" DisplayName="Spawn 4" iconFile="Assets/icons/number-4.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+        <MarkerCategory name="spawn5" DisplayName="Spawn 5" iconFile="Assets/icons/number-5.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+        <MarkerCategory name="spawn6" DisplayName="Spawn 6" iconFile="Assets/icons/number-6.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+        <MarkerCategory name="spawn7" DisplayName="Spawn 7" iconFile="Assets/icons/number-7.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+        <MarkerCategory name="spawn8" DisplayName="Spawn 8" iconFile="Assets/icons/number-8.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+        <MarkerCategory name="spawn9" DisplayName="Spawn 9" iconFile="Assets/icons/number-9.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+        <MarkerCategory name="spawn10" DisplayName="Spawn 10" iconFile="Assets/icons/number-10.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+      </MarkerCategory>
+
+      <MarkerCategory name="triggerareas" DisplayName="Wave Trigger Areas">
+        <MarkerCategory name="wavetrigger1" DisplayName="Wave Trigger Area 1" alpha="0.45" animspeed="0" texture="Assets/line.png" trailScale="0.4" fadeNear="4000" fadeFar="4100" tip-description="Crossing this line with Kelas hitbox will cause waves in the center and south-east to spawn. No north-west waves." />
+        <MarkerCategory name="wavetrigger2" DisplayName="Wave Trigger Area 2" alpha="0.45" animspeed="0" texture="Assets/line.png" trailScale="0.4" fadeNear="4000" fadeFar="4100" tip-description="Crossing this line with Kelas hitbox will cause waves in the center and north-west to spawn. No south-east waves." />
+      </MarkerCategory>
+
+      <MarkerCategory name="middle" DisplayName="Crabs Center" iconFile="Assets/icons/stacking-spot.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100" tip-description="Displays a marker from which all Executor of Wave spawns can be reached with 1500 range."/>
+
     </MarkerCategory>
   </MarkerCategory>
 
   <POIs>
-    <trail type="apo.kelanm.wavetrigger1" trailData="Assets/trails/topmid.trl" mapid="1609"/>
-    <trail type="apo.kelanm.wavetrigger2" trailData="Assets/trails/botmid.trl" mapid="1609"/>
+    <POI MapID="1609" xpos="-547" ypos="43" zpos="292" type="apo.kela.executors.spawn1" GUID="bN8xYwTqK5mJr2VuZp4LdQ=="/>
+    <POI MapID="1609" xpos="-566" ypos="43" zpos="314" type="apo.kela.executors.spawn2" GUID="Zt4HaP9kLm3RsV8Xy2QwBg=="/>
+    <POI MapID="1609" xpos="-531" ypos="43" zpos="290" type="apo.kela.executors.spawn3" GUID="mR7uKc1Xp9TfL4ZnYv2HsQ=="/>
+    <POI MapID="1609" xpos="-549" ypos="43" zpos="315" type="apo.kela.executors.spawn4" GUID="pL2vXk9Qa7MzR4HtYc8WnA=="/>
+    <POI MapID="1609" xpos="-564" ypos="43" zpos="334" type="apo.kela.executors.spawn5" GUID="wT6rNm3Yq8HvL1ZxPj5KsQ=="/>
+    <POI MapID="1609" xpos="-503" ypos="43" zpos="305" type="apo.kela.executors.spawn6" GUID="dF9xLp3Vt7QmR2ZnYk6HwA=="/>
+    <POI MapID="1609" xpos="-524" ypos="43" zpos="313" type="apo.kela.executors.spawn7" GUID="hK4zVn8Yr2TpL9XcQw7MfA=="/>
+    <POI MapID="1609" xpos="-538" ypos="43" zpos="343" type="apo.kela.executors.spawn8" GUID="xM7qLp2Zt9HvR4YnKc3WsQ=="/>
+    <POI MapID="1609" xpos="-554" ypos="43" zpos="358" type="apo.kela.executors.spawn9" GUID="rP8vTn5Yk2LmH9XqZc6WrA=="/>
+    <POI MapID="1609" xpos="-512" ypos="43" zpos="331" type="apo.kela.executors.spawn10" GUID="tL3xKp9Vq7YmR2ZnHf4WsQ=="/>
 
-    <POI MapID="1609" xpos="-535" ypos="43" zpos="324" type="apo.kelanm.stack" GUID="Qk3sL9vTzE2aHf7WpR1XcA=="/>
+    <trail type="apo.kela.triggerareas.wavetrigger1" trailData="Assets/trails/topmid.trl" mapid="1609"/>
+    <trail type="apo.kela.triggerareas.wavetrigger2" trailData="Assets/trails/botmid.trl" mapid="1609"/>
 
-    <POI MapID="1609" xpos="-547" ypos="43" zpos="292" type="apo.kelanm.crab1" GUID="bN8xYwTqK5mJr2VuZp4LdQ=="/>
-    <POI MapID="1609" xpos="-566" ypos="43" zpos="314" type="apo.kelanm.crab2" GUID="Zt4HaP9kLm3RsV8Xy2QwBg=="/>
-    <POI MapID="1609" xpos="-531" ypos="43" zpos="290" type="apo.kelanm.crab3" GUID="mR7uKc1Xp9TfL4ZnYv2HsQ=="/>
-    <POI MapID="1609" xpos="-549" ypos="43" zpos="315" type="apo.kelanm.crab4" GUID="pL2vXk9Qa7MzR4HtYc8WnA=="/>
-    <POI MapID="1609" xpos="-564" ypos="43" zpos="334" type="apo.kelanm.crab5" GUID="wT6rNm3Yq8HvL1ZxPj5KsQ=="/>
-    <POI MapID="1609" xpos="-503" ypos="43" zpos="305" type="apo.kelanm.crab6" GUID="dF9xLp3Vt7QmR2ZnYk6HwA=="/>
-    <POI MapID="1609" xpos="-524" ypos="43" zpos="313" type="apo.kelanm.crab7" GUID="hK4zVn8Yr2TpL9XcQw7MfA=="/>
-    <POI MapID="1609" xpos="-538" ypos="43" zpos="343" type="apo.kelanm.crab8" GUID="xM7qLp2Zt9HvR4YnKc3WsQ=="/>
-    <POI MapID="1609" xpos="-554" ypos="43" zpos="358" type="apo.kelanm.crab9" GUID="rP8vTn5Yk2LmH9XqZc6WrA=="/>
-    <POI MapID="1609" xpos="-512" ypos="43" zpos="331" type="apo.kelanm.crab10" GUID="tL3xKp9Vq7YmR2ZnHf4WsQ=="/>
+    <POI MapID="1609" xpos="-535" ypos="43" zpos="324" type="apo.kela.middle" GUID="Qk3sL9vTzE2aHf7WpR1XcA=="/>
   </POIs>
 
 </OverlayData>
