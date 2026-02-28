@@ -6,7 +6,7 @@
 
     <MarkerCategory name="kela" DisplayName="Kela">
 
-      <MarkerCategory name="executors" DisplayName="Executor or Waves">
+      <MarkerCategory name="executors" DisplayName="Executor of Waves Spawns">
         <MarkerCategory name="spawn1" DisplayName="Spawn 1" iconFile="Assets/icons/number-1.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
         <MarkerCategory name="spawn2" DisplayName="Spawn 2" iconFile="Assets/icons/number-2.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
         <MarkerCategory name="spawn3" DisplayName="Spawn 3" iconFile="Assets/icons/number-3.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
@@ -19,36 +19,56 @@
         <MarkerCategory name="spawn10" DisplayName="Spawn 10" iconFile="Assets/icons/number-10.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
       </MarkerCategory>
 
+      <MarkerCategory name="razortooth" DisplayName="Crocodilian Razortooth Spawns" defaultToggle="0" tip-description="Displays the spawn positions of the Crocodilian Razortooth enemies">
+        <MarkerCategory name="spawn1" DisplayName="Spawn 1" iconFile="Assets/dot.png" rotate-z="90" iconSize="1" alpha="0.9" fadeNear="4000" fadefar="4100" color="#DC2F02"/>
+        <MarkerCategory name="spawn2" DisplayName="Spawn 2" iconFile="Assets/dot.png" rotate-z="90" iconSize="1" alpha="0.9" fadeNear="4000" fadefar="4100" color="#DC2F02"/>
+        <MarkerCategory name="spawn3" DisplayName="Spawn 3" iconFile="Assets/dot.png" rotate-z="90" iconSize="1" alpha="0.9" fadeNear="4000" fadefar="4100" color="#DC2F02"/>
+        <MarkerCategory name="spawn4" DisplayName="Spawn 4" iconFile="Assets/dot.png" rotate-z="90" iconSize="1" alpha="0.9" fadeNear="4000" fadefar="4100" color="#DC2F02"/>
+        <MarkerCategory name="spawn5" DisplayName="Spawn 5" iconFile="Assets/dot.png" rotate-z="90" iconSize="1" alpha="0.9" fadeNear="4000" fadefar="4100" color="#DC2F02"/>
+        <MarkerCategory name="spawn6" DisplayName="Spawn 6" iconFile="Assets/dot.png" rotate-z="90" iconSize="1" alpha="0.9" fadeNear="4000" fadefar="4100" color="#DC2F02"/>
+        <MarkerCategory name="spawn7" DisplayName="Spawn 7" iconFile="Assets/dot.png" rotate-z="90" iconSize="1" alpha="0.9" fadeNear="4000" fadefar="4100" color="#DC2F02"/>
+        <MarkerCategory name="spawn8" DisplayName="Spawn 8" iconFile="Assets/dot.png" rotate-z="90" iconSize="1" alpha="0.9" fadeNear="4000" fadefar="4100" color="#DC2F02"/>
+      </MarkerCategory>
+
       <MarkerCategory name="triggerareas" DisplayName="Wave Trigger Areas">
         <MarkerCategory name="wavetrigger1" DisplayName="Wave Trigger Area 1" alpha="0.45" animspeed="0" texture="Assets/line.png" trailScale="0.4" fadeNear="4000" fadeFar="4100" tip-description="Crossing this line with Kelas hitbox will cause waves in the center and south-east to spawn. No north-west waves." />
         <MarkerCategory name="wavetrigger2" DisplayName="Wave Trigger Area 2" alpha="0.45" animspeed="0" texture="Assets/line.png" trailScale="0.4" fadeNear="4000" fadeFar="4100" tip-description="Crossing this line with Kelas hitbox will cause waves in the center and north-west to spawn. No south-east waves." />
       </MarkerCategory>
 
-      <MarkerCategory name="waveareas" DisplayName="Wave Areas" defaultToggle="0">
-        <MarkerCategory name="midwave" DisplayName="Wave Area Middle" tip-description="Hitbox of the middle wave.">
+      <MarkerCategory name="waveareas" DisplayName="Wave Hitboxes" defaultToggle="0">
+        <MarkerCategory name="midwave" DisplayName="Wave Hitbox Middle" tip-description="Hitbox of the middle wave">
           <MarkerCategory name="waveareamidnw" DisplayName="NW Border" alpha="0.45" animspeed="0" texture="Assets/line-fade-right.png" trailScale="1" fadeNear="4000" fadeFar="4100" color="#DC2F02" />
           <MarkerCategory name="waveareamidse" DisplayName="SE Border" alpha="0.45" animspeed="0" texture="Assets/line-fade-left.png" trailScale="1" fadeNear="4000" fadeFar="4100" color="#DC2F02" tip-description="Crossing this line with Kelas hitbox will cause waves in the center and south-east to spawn. No north-west waves." />
         </MarkerCategory>
-        <MarkerCategory name="waveareanw" DisplayName="Wave Area NW" alpha="0.45" animspeed="0" texture="Assets/line-fade-right.png" trailScale="1" fadeNear="4000" fadeFar="4100" color="#DC2F02" tip-description="Hitbox of the north-west wave." />
-        <MarkerCategory name="wavearease" DisplayName="Wave Area SE" alpha="0.45" animspeed="0" texture="Assets/line-fade-left.png" trailScale="1" fadeNear="4000" fadeFar="4100" color="#DC2F02" tip-description="Hitbox of the south-east wave." />
+        <MarkerCategory name="waveareanw" DisplayName="Wave Hitbox NW" alpha="0.45" animspeed="0" texture="Assets/line-fade-right.png" trailScale="1" fadeNear="4000" fadeFar="4100" color="#DC2F02" tip-description="Hitbox of the north-west wave" />
+        <MarkerCategory name="wavearease" DisplayName="Wave Hitbox SE" alpha="0.45" animspeed="0" texture="Assets/line-fade-left.png" trailScale="1" fadeNear="4000" fadeFar="4100" color="#DC2F02" tip-description="Hitbox of the south-east wave" />
       </MarkerCategory>
 
-      <MarkerCategory name="middle" DisplayName="Crabs Center" iconFile="Assets/icons/stacking-spot.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100" tip-description="Displays a marker from which all Executor of Wave spawns can be reached with 1500 range."/>
+      <MarkerCategory name="middle" DisplayName="Crabs Center" iconFile="Assets/icons/stacking-spot.png" defaultToggle="0" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100" tip-description="Displays a marker from which all Executor of Wave spawns can be reached with 1500 range."/>
 
     </MarkerCategory>
   </MarkerCategory>
 
   <POIs>
-    <POI MapID="1609" xpos="-547" ypos="43" zpos="292" type="apo.kela.executors.spawn1" GUID="bN8xYwTqK5mJr2VuZp4LdQ=="/>
-    <POI MapID="1609" xpos="-566" ypos="43" zpos="314" type="apo.kela.executors.spawn2" GUID="Zt4HaP9kLm3RsV8Xy2QwBg=="/>
-    <POI MapID="1609" xpos="-531" ypos="43" zpos="290" type="apo.kela.executors.spawn3" GUID="mR7uKc1Xp9TfL4ZnYv2HsQ=="/>
-    <POI MapID="1609" xpos="-549" ypos="43" zpos="315" type="apo.kela.executors.spawn4" GUID="pL2vXk9Qa7MzR4HtYc8WnA=="/>
-    <POI MapID="1609" xpos="-564" ypos="43" zpos="334" type="apo.kela.executors.spawn5" GUID="wT6rNm3Yq8HvL1ZxPj5KsQ=="/>
-    <POI MapID="1609" xpos="-503" ypos="43" zpos="305" type="apo.kela.executors.spawn6" GUID="dF9xLp3Vt7QmR2ZnYk6HwA=="/>
-    <POI MapID="1609" xpos="-524" ypos="43" zpos="313" type="apo.kela.executors.spawn7" GUID="hK4zVn8Yr2TpL9XcQw7MfA=="/>
-    <POI MapID="1609" xpos="-538" ypos="43" zpos="343" type="apo.kela.executors.spawn8" GUID="xM7qLp2Zt9HvR4YnKc3WsQ=="/>
-    <POI MapID="1609" xpos="-554" ypos="43" zpos="358" type="apo.kela.executors.spawn9" GUID="rP8vTn5Yk2LmH9XqZc6WrA=="/>
-    <POI MapID="1609" xpos="-512" ypos="43" zpos="331" type="apo.kela.executors.spawn10" GUID="tL3xKp9Vq7YmR2ZnHf4WsQ=="/>
+    <POI MapID="1609" xpos="-547.2673" ypos="42" zpos="292.4519" type="apo.kela.executors.spawn1" GUID="bN8xYwTqK5mJr2VuZp4LdQ=="/>
+    <POI MapID="1609" xpos="-566.8911" ypos="42" zpos="313.1054" type="apo.kela.executors.spawn2" GUID="Zt4HaP9kLm3RsV8Xy2QwBg=="/>
+    <POI MapID="1609" xpos="-530.9536" ypos="42" zpos="290.0698" type="apo.kela.executors.spawn3" GUID="mR7uKc1Xp9TfL4ZnYv2HsQ=="/>
+    <POI MapID="1609" xpos="-549.1548" ypos="42" zpos="313.4739" type="apo.kela.executors.spawn4" GUID="pL2vXk9Qa7MzR4HtYc8WnA=="/>
+    <POI MapID="1609" xpos="-564.8715" ypos="42" zpos="333.8655" type="apo.kela.executors.spawn5" GUID="wT6rNm3Yq8HvL1ZxPj5KsQ=="/>
+    <POI MapID="1609" xpos="-504.1297" ypos="42" zpos="306.1665" type="apo.kela.executors.spawn6" GUID="dF9xLp3Vt7QmR2ZnYk6HwA=="/>
+    <POI MapID="1609" xpos="-525.1851" ypos="42" zpos="313.7117" type="apo.kela.executors.spawn7" GUID="hK4zVn8Yr2TpL9XcQw7MfA=="/>
+    <POI MapID="1609" xpos="-539.0261" ypos="42" zpos="343.4077" type="apo.kela.executors.spawn8" GUID="xM7qLp2Zt9HvR4YnKc3WsQ=="/>
+    <POI MapID="1609" xpos="-555.7407" ypos="42" zpos="359.1194" type="apo.kela.executors.spawn9" GUID="rP8vTn5Yk2LmH9XqZc6WrA=="/>
+    <POI MapID="1609" xpos="-511.4275" ypos="42" zpos="330.8745" type="apo.kela.executors.spawn10" GUID="tL3xKp9Vq7YmR2ZnHf4WsQ=="/>
+
+    <POI MapID="1609" xpos="-521.1967" ypos="42" zpos="330.2939" type="apo.kela.razortooth.spawn1" GUID="Qm7Lp9XvT2kHs4NdZj8RaQ=="/>
+    <POI MapID="1609" xpos="-514.5412" ypos="42" zpos="319.9884" type="apo.kela.razortooth.spawn2" GUID="Wc3Ty8NmK1qVz6LpRx5HuA=="/>
+    <POI MapID="1609" xpos="-518.1837" ypos="42" zpos="310.6598" type="apo.kela.razortooth.spawn3" GUID="Zp4Kd1LsV9mQx7TbNj2YwQ=="/>
+    <POI MapID="1609" xpos="-528.7103" ypos="42" zpos="305.2073" type="apo.kela.razortooth.spawn4" GUID="Hr8Va2NmQ5tLp9XzK3WcUg=="/>
+    <POI MapID="1609" xpos="-537.7771" ypos="42" zpos="308.0841" type="apo.kela.razortooth.spawn5" GUID="Ld2Qx7TbNj5Vm8KpZr4YsA=="/>
+    <POI MapID="1609" xpos="-544.8154" ypos="42" zpos="318.1157" type="apo.kela.razortooth.spawn6" GUID="Mn5Zt1LpQ8vRx3KdWj7HuA=="/>
+    <POI MapID="1609" xpos="-539.7485" ypos="42" zpos="330.5366" type="apo.kela.razortooth.spawn7" GUID="Tx9Kp4VmZ2qLs8NdRj6YwQ=="/>
+    <POI MapID="1609" xpos="-530.3982" ypos="42" zpos="333.8391" type="apo.kela.razortooth.spawn8" GUID="Yv3Lm7QxK2tNp5ZdR8HsUg=="/>
 
     <trail type="apo.kela.triggerareas.wavetrigger1" trailData="Assets/trails/kela-wave-trigger-botmid.trl" mapid="1609"/>
     <trail type="apo.kela.triggerareas.wavetrigger2" trailData="Assets/trails/kela-wave-trigger-topmid.trl" mapid="1609"/>
