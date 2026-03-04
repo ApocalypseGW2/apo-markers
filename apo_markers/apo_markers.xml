@@ -31,8 +31,8 @@
       </MarkerCategory>
 
       <MarkerCategory name="triggerareas" DisplayName="Wave Trigger Areas">
-        <MarkerCategory name="wavetrigger1" DisplayName="Wave Trigger Area 1" alpha="0.45" animspeed="0" texture="Assets/line.png" trailScale="0.4" fadeNear="4000" fadeFar="4100" tip-description="Crossing this line with Kelas hitbox will cause waves in the center and south-east to spawn. No north-west waves." />
-        <MarkerCategory name="wavetrigger2" DisplayName="Wave Trigger Area 2" alpha="0.45" animspeed="0" texture="Assets/line.png" trailScale="0.4" fadeNear="4000" fadeFar="4100" tip-description="Crossing this line with Kelas hitbox will cause waves in the center and north-west to spawn. No south-east waves." />
+        <MarkerCategory name="wavetrigger1" DisplayName="Wave Trigger Area 1" alpha="0.45" animspeed="0" texture="Assets/line.png" trailScale="0.4" fadeNear="4000" fadeFar="4100" tip-description="Crossing this line with Kelas hitbox will cause waves in the center and north-west to spawn. No south-east waves." />
+        <MarkerCategory name="wavetrigger2" DisplayName="Wave Trigger Area 2" alpha="0.45" animspeed="0" texture="Assets/line.png" trailScale="0.4" fadeNear="4000" fadeFar="4100" tip-description="Crossing this line with Kelas hitbox will cause waves in the center and south-east to spawn. No north-west waves." />
       </MarkerCategory>
 
       <MarkerCategory name="waveareas" DisplayName="Wave Hitboxes" defaultToggle="0">
