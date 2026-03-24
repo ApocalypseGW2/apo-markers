@@ -11,6 +11,7 @@
         <MarkerCategory name="spawn2" DisplayName="Spawn 2" iconFile="Assets/icons/number-2.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
         <MarkerCategory name="spawn3" DisplayName="Spawn 3" iconFile="Assets/icons/number-3.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
         <MarkerCategory name="spawn4" DisplayName="Spawn 4" iconFile="Assets/icons/number-4.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
+        <MarkerCategory name="spawn4madge" DisplayName="Madge" iconFile="Assets/icons/madge.png" iconSize="0.2" alpha="0.9" fadeNear="4000" fadefar="4100"/>
         <MarkerCategory name="spawn5" DisplayName="Spawn 5" iconFile="Assets/icons/number-5.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
         <MarkerCategory name="spawn6" DisplayName="Spawn 6" iconFile="Assets/icons/number-6.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
         <MarkerCategory name="spawn7" DisplayName="Spawn 7" iconFile="Assets/icons/number-7.png" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100"/>
@@ -54,6 +55,7 @@
     <POI MapID="1609" xpos="-566.8911" ypos="42" zpos="313.1054" type="apo.kela.executors.spawn2" GUID="Zt4HaP9kLm3RsV8Xy2QwBg=="/>
     <POI MapID="1609" xpos="-530.9536" ypos="42" zpos="290.0698" type="apo.kela.executors.spawn3" GUID="mR7uKc1Xp9TfL4ZnYv2HsQ=="/>
     <POI MapID="1609" xpos="-549.1548" ypos="42" zpos="313.4739" type="apo.kela.executors.spawn4" GUID="pL2vXk9Qa7MzR4HtYc8WnA=="/>
+    <POI MapID="1609" xpos="-549.1548" ypos="41" zpos="313.4739" type="apo.kela.executors.spawn4madge" GUID="rK7mXpQ3nT9wL1vYsJ6BcA=="/>
     <POI MapID="1609" xpos="-564.8715" ypos="42" zpos="333.8655" type="apo.kela.executors.spawn5" GUID="wT6rNm3Yq8HvL1ZxPj5KsQ=="/>
     <POI MapID="1609" xpos="-504.1297" ypos="42" zpos="306.1665" type="apo.kela.executors.spawn6" GUID="dF9xLp3Vt7QmR2ZnYk6HwA=="/>
     <POI MapID="1609" xpos="-525.1851" ypos="42" zpos="313.7117" type="apo.kela.executors.spawn7" GUID="hK4zVn8Yr2TpL9XcQw7MfA=="/>
