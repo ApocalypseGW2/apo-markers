@@ -48,6 +48,14 @@
       <MarkerCategory name="middle" DisplayName="Crabs Center" iconFile="Assets/icons/stacking-spot.png" defaultToggle="0" iconSize="1.5" alpha="0.9" fadeNear="4000" fadefar="4100" tip-description="Displays a marker from which all Executor of Wave spawns can be reached with 1500 range."/>
 
     </MarkerCategory>
+
+    <MarkerCategory name="vloxx" DisplayName="Vloxx">
+      <MarkerCategory name="weapons" DisplayName="Weapon Spawns">
+        <MarkerCategory name="staff" DisplayName="Staff" iconFile="Assets/vloxx/staff.png" iconSize="1.0" alpha="0.9" fadeNear="4000" fadeFar="4100"/>
+        <MarkerCategory name="spear" DisplayName="Spear" iconFile="Assets/vloxx/spear.png" iconSize="1.0" alpha="0.9" fadeNear="4000" fadeFar="4100"/>
+        <MarkerCategory name="sword" DisplayName="Sword" iconFile="Assets/vloxx/sword.png" iconSize="1.0" alpha="0.9" fadeNear="4000" fadeFar="4100"/>
+      </MarkerCategory>
+    </MarkerCategory>
   </MarkerCategory>
 
   <POIs>
@@ -81,6 +89,10 @@
     <trail type="apo.kela.waveareas.wavearease" trailData="Assets/trails/kela-wave-range-bot.trl" mapid="1609"/>
 
     <POI MapID="1609" xpos="-535" ypos="43" zpos="324" type="apo.kela.middle" GUID="Qk3sL9vTzE2aHf7WpR1XcA=="/>
+
+    <POI MapID="1638" xpos="301.000" ypos="315.000" zpos="408.546" type="apo.vloxx.weapons.staff" GUID="Mn5Zt1LpQ8vRx3KdWj7HuA=="/>
+    <POI MapID="1638" xpos="319.080" ypos="315.000" zpos="371.761" type="apo.vloxx.weapons.spear" GUID="Nn5Zt1LpQ8vRx3KdWj7HuA=="/>
+    <POI MapID="1638" xpos="331.119" ypos="315.000" zpos="398.757" type="apo.vloxx.weapons.sword" GUID="On5Zt1LpQ8vRx3KdWj7HuA=="/>
   </POIs>
 
 </OverlayData>
